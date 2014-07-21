@@ -1,0 +1,51 @@
+body 
+{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+table
+{
+	table-layout: fixed; 
+	width: 300px; 
+}
+
+
+th, tr, td
+{
+	border: 1px solid black;
+	padding: 10px;
+	width: 300px; 	
+	word-wrap: break-word; 
+}
+
+.check
+{
+	width: 30px; 
+	height: 30px; 
+}
+
+.perc
+{
+	padding: 20px; 
+	position: fixed; 
+	border: 1px solid black; 
+	text-align: right; 
+	margin: 0 0 0 83%;
+	
+	font-size: 30px; 
+
+}
+
+input[type='checkbox'] {
+    -webkit-appearance:none;
+    width:30px;
+    height:30px;
+    background:white;
+    border-radius:5px;
+    border:2px solid #555;
+}
+input[type='checkbox']:checked {
+    background-color: cyan;
+}
+
+
